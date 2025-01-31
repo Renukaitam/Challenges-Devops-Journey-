@@ -1,0 +1,90 @@
+------------------------------------------------Week 1: Networking Fundamentals - 90 Days of DevOps 2025----------------------------------------------------------------------------
+
+1. Understanding OSI & TCP/IP Models
+
+The OSI Model and TCP/IP Model are fundamental concepts in networking, helping us understand how data flows across networks. Below are real-world examples of each layer:
+
+OSI Model Real-World Examples:
+
+Application Layer (Layer 7) - Example: HTTP and HTTPS enable web browsing.
+
+Presentation Layer (Layer 6) - Example: SSL/TLS encryption ensures secure data transfer.
+
+Session Layer (Layer 5) - Example: A web browser maintaining a session with a website.
+
+Transport Layer (Layer 4) - Example: TCP ensures reliable communication in an online chat application.
+
+Network Layer (Layer 3) - Example: IP addresses route data across the internet.
+
+Data Link Layer (Layer 2) - Example: Ethernet helps devices communicate on a local network.
+
+Physical Layer (Layer 1) - Example: Fiber optic cables transmit data as light signals.
+
+The TCP/IP Model is a simplified version with four layers:
+
+Application Layer (Equivalent to OSI’s Layers 5, 6, 7)
+
+Transport Layer (Equivalent to OSI Layer 4)
+
+Internet Layer (Equivalent to OSI Layer 3)
+
+Network Interface Layer (Equivalent to OSI Layers 1 & 2)
+
+---------------------------------------------------------------2. Protocols and Ports for DevOps--------------------------------------------------------------------------------
+
+* HTTP (Port 80) – Used for web traffic and communication between servers and clients.
+* HTTPS (Port 443) – Ensures secure web communication using SSL/TLS encryption.
+* FTP (Port 21) – Facilitates file transfers between systems.
+* SSH (Port 22) – Enables secure remote access to servers.
+* DNS (Port 53) – Resolves domain names to IP addresses, essential for internet connectivity.
+* SMTP (Port 25) – Used for sending emails in mail servers.
+* MySQL (Port 3306) – Allows access to MySQL databases, commonly used in web applications.
+* PostgreSQL (Port 5432) – Provides access to PostgreSQL databases for applications and services.
+
+-----------------------------------------------------------3. AWS EC2 and Security Groups - Step-by-Step Guide------------------------------------------------------------------------
+
+1. How to Create an AWS EC2 Instance and Configure Security Groups:
+
+2. Log in to AWS Console and navigate to EC2.
+
+3. Launch an EC2 instance (choose Amazon Linux/Ubuntu for free tier).
+
+4. Choose key pair authentication for SSH access.
+
+5. Configure Security Groups:
+
+6. Allow SSH (22) for remote access.
+
+7. Allow HTTP (80) and HTTPS (443) for web applications.
+
+8 Restrict other traffic as needed.
+
+9. Launch the instance and connect using SSH:  ssh -i your-key.pem ec2-user@your-ec2-i
+
+-------------------------------------------------------------------------4. Networking Commands Cheat Sheet----------------------------------------------------------------------------
+
+* ping – Checks connectivity to a host or IP address.
+* traceroute / tracert – Traces the path of packets to a destination host.
+* netstat -tulnp – Lists open ports and active network connections.
+* curl -I <URL> – Fetches HTTP headers of a given URL.
+* dig <domain> – Performs a DNS lookup to retrieve domain information.
+* nslookup <domain> – Queries DNS records for a specific domain.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
